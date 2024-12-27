@@ -1,66 +1,83 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://www.bairesdev.com/blog/what-is-javascript-used-for/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" width="200" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
+## About JavaScript
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+JavaScript is one of the most widely-used programming languages in software and web development. StackOverflow’s 2019 Developer Survey reports that 69.8% of developers use it more often than any other programming language. In 2020, JavaScript remains one of the most popular languages among developers and one of the most sought-after skills by businesses given that it’s used by 95.1% of all websites.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+JavaScript is known for being a naturally very fast programming language that speeds up websites and applications. It enables developers to carry out maintenance and upgrades easily and it makes the debugging process simple. The fact that it can be used alongside other programming languages makes it a catch-all choice for front-end web development.
+
+JavaScript software development services use this flexible language for a variety of purposes. Some of the most common uses of JavaScript are:
+
+- Web development
+- Web apps
+- Web servers
+- Mobile applications
+- Games development
+- Presentations and slideshows
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Web Development
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+JavaScript is commonly used to make web pages dynamic. As a client scripting language, it provides websites with interactivity like prompts and alerts and it can add animations to images and text. BairesDev’s development of web apps for MTV provides a good example of JavaScript being used in web development.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+It’s used by websites for the purposes of data validation to ensure that users enter the correct information into fields on contact and sign-up forms.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+JavaScript also supports external applications like Flash, PDFs and widgets. It’s also used to allow users to load content onto a website without reloading the entire page.
 
-## Laravel Sponsors
+## Web Applications
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+JavaScript is also commonly used for building web appswithout web contexts. Rather than sending messages via servers, JavaScript interacts with web browsers directly, which enables developers to build fast web apps. Take a look at our rundown of JavaScript’s most famous apps.
 
-### Premium Partners
+It uses Application Programming Interfaces (APIs) that provide additional functionality to achieve better performance. By only requesting the data that’s needed, applications can avoid parsing and storing unnecessary fields, which uses resources more efficiently.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Web Servers
 
-## Contributing
+When used in combination with the Node JS framework, JavaScript can be used to create web servers. Because Node JS is event-driven, it moves to the next task quickly without transferring huge amounts of data, which makes JavaScript web servers very fast.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Node JS servers use single-threaded processes, which means that commands are executed one at a time. Processes are simple and straightforward, which means there’s less scope for error.
 
-## Code of Conduct
+JavaScript servers make it easy for developers to handle concurrency and identify errors that may otherwise be difficult to spot in multithreaded processes.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Web Servers
 
-## Security Vulnerabilities
+JavaScript is often used to develop cross-platform mobile apps for iOS, Android, Windows and Blackberry. Some of the most widely-used JavaScript frameworks for mobile apps include jQuery Mobile, React Native, Apache Cordova and Titanium.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Most of these frameworks are free and open source with dedicated support communities that provide detailed documentation.
 
-## License
+Many JavaScript mobile frameworks are lightweight, which enables applications to load quickly. They also typically support a range of display sizes and screen resolutions. BairesDev uses JavaScript to ensure quality when building iOS Apps for Google products.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Game Development
+
+JavaScript is increasingly being used to create games like Angry Birds, Polycraft and Bejewelled. When used with HTML5, JavaScript can create powerful games that require nothing more than a keyboard to play.
+
+The combination opens up a range of different engines, libraries and variations of common web languages that can be used to create fully-fledged, interactive games.
+
+The Ease JS library, in particular, provides developers with simple solutions for working with rich graphics that are useful for creating games, generative art and other highly graphical experiences. The library also has 2D image sprites that integrate several images into one, which speeds up gameplay by reducing the number of server requests and saving bandwidth.
+
+### Presentations and Slideshows
+
+JavaScript libraries Reveal JS and Bespoke JS can be used to create interactive slideshows and presentations on websites in all modern web browser.
+
+The libraries enable users to add images and interactive elements like bullet lists and syntax highlighting to sliding decks without having any programming experience.
+
+The sliding decks provide responsive scaling so they’re configured for mobile devices and tablets. They also provide a range of transitional styles, colors and themes.
+
+### Overview
+
+In summary, as an adaptable and widely-used programming language, JavaScript can be used in a variety of ways. As a client scripting language, it can provide interactivity to web pages. Because it interacts with web browsers directly, it’s well-suited to building web apps.
+
+When used with the Node JS framework, it can be used to build effective web servers and its other various frameworks can be used to develop mobile apps. JavaScript can also be used with HTML5 to create games and the Reveal JS and Bespoke JS frameworks enable developers to create slideshows and presentations.
+
+- Software Testing & QA
+- Cloud Computing
+- App Development
+- Maintenance & Support
+- Blockchain Consulting
+- Data Science
+- Internet of Things
+- UI/UX Design
+- MVP Development
+
+DOCUMENTATION FROM [BairesDevBlog](https://www.bairesdev.com/blog/what-is-javascript-used-for/)
