@@ -1,0 +1,47 @@
+/*
+    Custom styles
+
+    Author : Xanders Samoth | https://team.xsamtech.com/xanderssamoth
+*/
+.boxes {
+    display: flex;
+}
+
+.box {
+    --box-color: black;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: var(--box-color);
+    border: 5px solid var(--box-color);
+    text-align: center;
+    line-height: 200px;
+    transition: all .2s ease-out;
+}
+
+.box:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.box.selected {
+    transform: scale(1.2);
+}
+
+#box-1 {
+    --box-color: var(--bs-danger);
+}
+
+#box-2 {
+    --box-color: var(--bs-success);
+}
+
+#box-3 {
+    --box-color: var(--bs-primary);
+}
+
+#box-4 {
+    --box-color: var(--bs-warning);
+}

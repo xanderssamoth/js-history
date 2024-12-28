@@ -2,6 +2,6 @@
 
 @section('app-content')
 
-    {{ config('app.name') }}
+    @include('partials.' . $entity)
 
 @endsection
