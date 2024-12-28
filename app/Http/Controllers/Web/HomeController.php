@@ -56,5 +56,12 @@ class HomeController extends Controller
                 'entity' => $entity
             ]);
         }
+
+        if ($entity == 'history-basics-ajax') {
+            return view('home', [
+                'title' => 'Basics with Ajax', 
+                'entity' => $entity
+            ]);
+        }
     }
 }

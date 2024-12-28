@@ -31,6 +31,10 @@
                                 <h4 class="h4 text-secondary"><i class="bi bi-4-circle fs-2 align-middle"></i> Practical Navigation With popstate And hashchange Events</h4>
                                 <p class="card-text text-muted">The <code>hashchange</code> event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the # symbol).</p>
                             </a>
+                            <a href="{{ route('exercise', ['entity' => 'history-basics-ajax']) }}" class="list-group-item list-group-item-action py-4">
+                                <h4 class="h4 text-secondary"><i class="bi bi-5-circle fs-2 align-middle"></i> History API Basics with Ajax</h4>
+                                <p class="card-text text-muted">The History API enables a website to interact with the browser's session history: that is, the list of pages that the user has visited in a given window.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
