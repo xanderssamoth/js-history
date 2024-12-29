@@ -21,10 +21,10 @@ aboutBtn.addEventListener('click', e => {
 });
 window.addEventListener('popstate', e => {
     if (e.state && e.state.content) {
-        loadAbout(e.state.content); 
+        loadAbout(e.state.content);
 
     } else {
-        loadAbout(''); 
+        loadAbout('');
     }
 });
 history.replaceState({ content: '' }, 'Default state', './using-api');

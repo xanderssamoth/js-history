@@ -3,7 +3,7 @@
             <div class="px-5 text-center bg-body-tertiary">
                 <div class="container py-4">
                     <h1 class="display-1"><i class="bi bi-1-circle"></i></h1>
-                    <h1 class="text-body-emphasis">pushState & popstate</h1>
+                    <h1 class="text-body-emphasis"><code>pushState()</code> & <code>popstate</code></h1>
                     <p class="col-lg-8 lead mx-auto my-4">
                         The <code>pushState()</code> method of the History interface adds an entry to the browser's session history stack; and the <code>popstate</code> event of the Window interface is fired when the active history entry changes while the user navigates the session history.
                     </p>
