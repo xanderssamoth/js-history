@@ -3,3 +3,42 @@
 
     Author : Xanders Samoth | https://team.xsamtech.com/xanderssamoth
 */
+.bg-black {
+    background-color: black;
+}
+
+.box {
+    display: none;
+    height: 160px;
+    transition: all .2s ease-out;
+}
+
+.earth .box.earth {
+    display: block;
+}
+
+.mars .box.mars {
+    display: block;
+}
+
+.belt .box.belt {
+    display: block;
+}
+
+.all .box.earth, 
+.all .box.mars, 
+.all .box.belt {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .box {
+        height: 190px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        height: inherit!important;
+    }
+}
