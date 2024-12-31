@@ -36,8 +36,6 @@
                             </div>
                         </div>
                     </nav>
-
-                    <h4 id="result" class="h4"></h4>
                 </div>
             </div>
 

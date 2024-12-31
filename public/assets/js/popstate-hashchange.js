@@ -26,7 +26,19 @@ const APP = {
     checkState() {
         // Do we want to drive our app by state or fragment-identifier(hash) or query?
         // Called when page loads AND after a popstate event
-        document.getElementById('result').innerHTML = `State: ${history.state}`;
+        console.log(history.state);
+
+        if (!location.hash) {
+            // Default first load
+            history.replaceState('', '', '');
+            APP.updateLayout('all');
+
+        } else {
+            let hash = location.hash.replace('#', '');
+
+            APP.updateLayout(hash);
+            document.title = hash;
+        }
     },
     nav(e) {
         e.preventDefault();
