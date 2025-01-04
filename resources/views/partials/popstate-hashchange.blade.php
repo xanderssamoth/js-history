@@ -17,11 +17,11 @@
                 <div class="col-lg-8 col-sm-11 col-12 mx-auto">
                     <nav class="navbar navbar-expand-sm bg-black navbar-dark mb-4">
                         <div class="container-fluid">
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                                 <i class="bi bi-list"></i>
                             </button>
             
-                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div class="collapse navbar-collapse" id="navbarToggler01">
                                 <ul class="navbar-nav me-auto ps-sm-5">
                                     <li class="nav-item mx-sm-5" title="Earth" data-bs-toggle="tooltip">
                                         <a class="nav-link" data-name="James Holden" data-home="Earth" href="#">James Holden</a>

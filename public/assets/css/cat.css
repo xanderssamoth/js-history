@@ -1,0 +1,14 @@
+/*
+    Custom styles
+
+    Author : Xanders Samoth | https://team.xsamtech.com/xanderssamoth
+*/
+img {
+    width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        width: 100%;
+    }
+}

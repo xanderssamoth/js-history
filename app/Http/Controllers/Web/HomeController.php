@@ -58,6 +58,37 @@ class HomeController extends Controller
         }
 
         if ($entity == 'history-basics-ajax') {
+            if (request()->has('content')) {
+                if (request()->get('content') == 'cat') {
+                    return view('home', [
+                        'title' => 'Cats', 
+                        'entity' => $entity
+                    ]);
+                }
+
+                if (request()->get('content') == 'dog') {
+                    return view('home', [
+                        'title' => 'Dogs', 
+                        'entity' => $entity
+                    ]);
+                }
+
+            } else {
+                return view('home', [
+                    'title' => 'Basics with Ajax', 
+                    'entity' => $entity
+                ]);
+            }
+        }
+
+        if ($entity == 'cat') {
+            return view('home', [
+                'title' => 'Basics with Ajax', 
+                'entity' => $entity
+            ]);
+        }
+
+        if ($entity == 'dog') {
             return view('home', [
                 'title' => 'Basics with Ajax', 
                 'entity' => $entity

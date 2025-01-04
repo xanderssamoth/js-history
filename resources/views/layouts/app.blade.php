@@ -18,7 +18,11 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/addons/bootstrap/css/bootstrap.min.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/addons/mdb/css/mdb.dark.min.css') }}">
 @if (!empty($entity))
+    @if (request()->has('content'))
+        <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/' . request()->get('content') . '.css') }}">
+    @else
         <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/' . $entity . '.css') }}">
+    @endif
 @endif
 
         <title>
