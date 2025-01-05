@@ -18,16 +18,16 @@ $(document).ready(function () {
     // Reset all tooltips on the page
     initializeTooltips = function () {
         if (typeof bootstrap !== 'undefined') {
-            // Désactiver tous les tooltips existants avant de réinitialiser
+            // Disable all existing tooltips before resetting
             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
             tooltipTriggerList.forEach(function (tooltipTriggerEl) {
-                var tooltipInstance = bootstrap.Tooltip.getInstance(tooltipTriggerEl); // Récupère l'instance existante
+                var tooltipInstance = bootstrap.Tooltip.getInstance(tooltipTriggerEl); // Retrieves the existing instance
                 if (tooltipInstance) {
-                    tooltipInstance.dispose(); // Désactive le tooltip existant
+                    tooltipInstance.dispose(); // Disables the existing tooltip
                 }
             });
 
-            // Réinitialise tous les tooltips
+            // Reset all tooltips
             tooltipTriggerList.map(function (tooltipTriggerEl) {
                 return new bootstrap.Tooltip(tooltipTriggerEl);
             });
