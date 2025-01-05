@@ -7,7 +7,9 @@
                                 The cat (Felis catus), also referred to as the domestic cat, is a small domesticated carnivorous mammal. It is the only domesticated species of the family Felidae. Advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC.
                             </p>
                             <p class="m-0">
-                                <a href="{{ route('exercise', ['entity' => 'history-basics-ajax']) }}" class="card-link float-sm-end">Back root</a>
+                                <a href="{{ route('exercise', ['entity' => 'history-basics-ajax']) }}" class="card-link float-sm-end" title="The home of this course" data-bs-toggle="tooltip">
+                                    Back root
+                                </a>
                             </p>
                         </div>
                     </div>

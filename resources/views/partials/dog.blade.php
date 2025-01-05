@@ -7,7 +7,9 @@
                                 The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf. Also called the domestic dog, it was selectively bred from an extinct population of wolves during the Late Pleistocene by hunter-gatherers. The dog was the first species to be domesticated by humans, over 14,000 years ago and before the development of agriculture.
                             </p>
                             <p class="m-0">
-                                <a href="{{ route('exercise', ['entity' => 'history-basics-ajax']) }}" class="card-link float-sm-end">Back root</a>
+                                <a href="{{ route('exercise', ['entity' => 'history-basics-ajax']) }}" class="card-link float-sm-end" title="The home of this course" data-bs-toggle="tooltip">
+                                    Back root
+                                </a>
                             </p>
                         </div>
                     </div>
