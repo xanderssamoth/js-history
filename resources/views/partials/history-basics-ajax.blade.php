@@ -22,12 +22,27 @@
                             </button>
             
                             <div class="collapse navbar-collapse" id="navbarToggler02">
-                                <ul class="navbar-nav ms-sm-5 ps-sm-5">
-                                    <li class="nav-item px-sm-5 mx-sm-5" title="Dogs" data-bs-toggle="tooltip">
-                                        <a class="nav-link ps-sm-4" href="{{ route('exercise', ['entity' => 'history-basics-ajax', 'content' => 'dog']) }}">Dogs</a>
+                                <ul class="navbar-nav ms-sm-5">
+                                    <li class="nav-item px-sm-5" title="Dogs" data-bs-toggle="tooltip">
+                                        <a class="nav-link" href="{{ route('exercise', ['entity' => 'history-basics-ajax', 'content' => 'dog']) }}">Dogs</a>
                                     </li>
-                                    <li class="nav-item px-sm-5 mx-sm-5" title="Cats" data-bs-toggle="tooltip">
-                                        <a class="nav-link ps-sm-4" href="{{ route('exercise', ['entity' => 'history-basics-ajax', 'content' => 'cat']) }}">Cats</a>
+                                    <li class="nav-item px-sm-5" title="Cats" data-bs-toggle="tooltip">
+                                        <a class="nav-link" href="{{ route('exercise', ['entity' => 'history-basics-ajax', 'content' => 'cat']) }}">Cats</a>
+                                    </li>
+                                    <li class="nav-item dropdown ps-sm-2">
+                                        <a class="btn btn-black py-2 dropdown-toggle fs-6" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-transform: inherit!important;">
+                                          Dropdown link
+                                        </a>
+                                      
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Action</a></li>
+                                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item px-sm-5">
+                                        <button type="button" class="btn btn-black py-2 fs-6" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover" style="text-transform: inherit!important;">
+                                            Popover
+                                        </button>
                                     </li>
                                 </ul>
                             </div>

@@ -15,13 +15,36 @@ $(document).ready(function () {
         return urlParams.get('content');
     };
 
+    // Reset all popovers on the page
+    initializePopovers = function () {
+        if (typeof bootstrap !== 'undefined') {
+            // Disable all existing popovers before resetting
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+
+            popoverTriggerList.forEach(function (popoverTriggerEl) {
+                var popoverInstance = bootstrap.Popover.getInstance(popoverTriggerEl); // Retrieves the existing instance
+
+                if (popoverInstance) {
+                    popoverInstance.dispose(); // Disables the existing popover
+                }
+            });
+
+            // Reset all popovers
+            popoverTriggerList.map(function (popoverTriggerEl) {
+                return new bootstrap.Popover(popoverTriggerEl);
+            });
+        }
+    };
+
     // Reset all tooltips on the page
     initializeTooltips = function () {
         if (typeof bootstrap !== 'undefined') {
             // Disable all existing tooltips before resetting
             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+
             tooltipTriggerList.forEach(function (tooltipTriggerEl) {
                 var tooltipInstance = bootstrap.Tooltip.getInstance(tooltipTriggerEl); // Retrieves the existing instance
+
                 if (tooltipInstance) {
                     tooltipInstance.dispose(); // Disables the existing tooltip
                 }
@@ -36,12 +59,13 @@ $(document).ready(function () {
 
     // Fetches and inserts content into the container
     fetchAndInsert = function (href) {
-        content.load(`${href} #content`, function () {
+        content.load(`${href} #content > *`, function () {
             // Force a reload of styles
             loadCSSForContent(href);
-            
-            // Reset all tooltips after loading
+
+            // Reset all tooltips/popovers after loading
             initializeTooltips();
+            initializePopovers();
         });
     };
 
@@ -113,6 +137,7 @@ $(document).ready(function () {
         // Load specific content here based on this setting
     }
 
-    // Initialize tooltips from the beginning
+    // Initialize tooltips/popovers from the beginning
     initializeTooltips();
+    initializePopovers();
 });

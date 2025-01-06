@@ -11,5 +11,11 @@
                                     Back root
                                 </a>
                             </p>
+
+                            <div class="nav-item">
+                                <button type="button" class="btn btn-black py-2 fs-6" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Bottom popover" style="text-transform: inherit!important;">
+                                    Popover
+                                </button>
+                            </div>
                         </div>
                     </div>

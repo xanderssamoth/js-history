@@ -11,5 +11,16 @@
                                     Back root
                                 </a>
                             </p>
+
+                            <div class="nav-item dropdown">
+                                <a class="btn btn-black py-2 dropdown-toggle fs-6" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-transform: inherit!important;">
+                                  Dropdown link
+                                </a>
+                              
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Action</a></li>
+                                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
